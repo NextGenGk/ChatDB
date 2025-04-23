@@ -27,7 +27,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:5000/natural-language", {
+      const response = await axios.post("https://chatdb-server.onrender.com/natural-language", {
         command: input
       });
 
